@@ -4,7 +4,10 @@
 What is it?
 -----------
 Is a plugin for jQuery that truncates strings to a determinate number of characters, appending an ending string like "...". When the user hovers the string, the original shown with an animation, overlaping the truncated. Is possible to offset this tooltip via options.
+
 If the original string length is minor than maxLength, the script do nothing.
+
+[Demo here](http://test.rleal.com/strTruncator/)
 
 
 Options
@@ -23,7 +26,7 @@ Use
 	`$(document).ready( function() {
 		$('h2.truncate').strTruncator({'background':'white', 'maxLength':50});
 	})`
-	
+
 Questions, feedback, proposals...
 ---------------------------------
 e-mail: leal.ra@gmail.com
