@@ -11,7 +11,7 @@
 (function ($) {
 	$.fn.strTruncator = function(options) {
 		var defaults = {  
-			maxLength : 4,
+			maxLength : 20,
 			background	: 'transparent',
 			opacity: 1,
 			offsetY: 0,
