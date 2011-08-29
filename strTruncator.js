@@ -29,7 +29,6 @@
 				$(this).text(text.substr(0, options.maxLength) + options.endString);
 				$(this).hover ( 
 					function() {
-						console.log($(this).css('line-height'))
 						var offset = $(this).offset();
 						var height = $(this).height();
 						var tooltip = $('<div class="strTruncator">'+text+'</div>').css({
