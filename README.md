@@ -1,11 +1,12 @@
-[strTruncator] - jQuery plugin for truncate strings
+strTruncator - jQuery plugin for truncate strings
 ===================================================
 
 What is it?
 -----------
-Is a plugin for jQuery that truncates strings to a determinate number of characters, appending an ending string like "...". When the user hovers the string, the original shown with an animation, overlaping the truncated. Is possible to offset this tooltip via options.
+It is a plugin for jQuery that truncates strings to a given number of characters, appending an ending string like "...". When the user hovers over the string, the original text is shown with an animation, overlaping the truncated one. 
 
-If the original string length is minor than maxLength, the script do nothing.
+If the original string length is minor than maxLength, the script does nothing.
+
 
 [Demo here](http://test.rleal.com/strTruncator/)
 
